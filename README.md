@@ -15,3 +15,13 @@
   $ cd ../../
   $ catkin build
  ```
+
+## 動作確認
+ このリポジトリにサンプルスクリプトがあるので実際にシミュレーションで動作してみる
+ 
+ ```shell
+  $ roslaunch motoman_gp8_moveit_config demo.launch
+  $ rosrun motoman_gp8_moveit_config motoman.py
+ ```
+これによりシミュレーションで動作が可能となる
+なお、実機を用いても動作確認済である. 詳細は[motoman-gp8 Moveit!実機動作方法](http://www1.meijo-u.ac.jp/~kohara/cms/technicalreport/ros_motoman_gp8_setup)に記す
