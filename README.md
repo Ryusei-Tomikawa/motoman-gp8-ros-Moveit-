@@ -12,7 +12,9 @@
  ```shell
   $ cd ~/catkin_ws/src/motoman
   $ git clone https://github.com/Ryusei-Tomikawa/motoman-gp8-ros
+  $ rosdep update
   $ cd ../../
+  $ rosdep install --from-paths src/ --ignore-src --rosdistro melodic
   $ catkin build
  ```
 
