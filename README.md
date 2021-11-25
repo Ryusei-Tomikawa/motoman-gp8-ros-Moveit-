@@ -1,4 +1,4 @@
-## motoman-gp8-ros
+## motoman-gp8-ros-Moveit!
 このリポジトリは安川電機のmotoman-gp8をMoveit！で動かすことが可能にしている
 すでにrosで制御可能なmotomanのパッケージ[ros-industrial/motoman](https://github.com/ros-industrial/motoman)
 が存在するが、産業ロボットの種類によってmoveit!で制御できないロボットが存在する
